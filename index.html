@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>MEAT</title>
+
+    <meta name="description" content="Project page for MEAT: Multiview Diffusion Model for Human Generation on Megapixels with Mesh Attention">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--FACEBOOK-->
+    <meta property="og:image" content="">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="682">
+    <meta property="og:image:height" content="682">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=""/>
+    <meta property="og:title" content="MEAT" />
+    <meta property="og:description" content="Project page for MEAT: Multiview Diffusion Model for Human Generation on Megapixels with Mesh Attention" />
+
+        <!--TWITTER-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MEAT" />
+    <meta name="twitter:description" content="Project page for MEAT: Multiview Diffusion Model for Human Generation on Megapixels with Mesh Attention" />
+    <meta name="twitter:image" content="" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <!-- <link rel="stylesheet" href="css/app.css"> -->
+    <link rel="stylesheet" href="./css/stylesheet.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    <!-- model viewer -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main" style="width: 100%; max-width: 1500px;">
+        <div class="row">
+            <h1 class="col-md-12 text-center">
+                MEAT: Multiview Diffusion Model for Human Generation on Megapixels with Mesh Attention<br>
+                <small>
+                    CVPR 2025
+                </small>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://johann.wang">
+                            Yuhan Wang<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hongfz16.github.io/">
+                            Fangzhou Hong<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://williamyang1991.github.io/">
+                            Shuai Yang<sup>2</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://liming-jiang.com/">
+                            Liming Jiang<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wywu.github.io/">
+                            Wayne Wu<sup>3</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mmlab-ntu.com/person/ccloy/">
+                            Chen Change Loy<sup>1</sup>
+                        </a>
+                    </li>
+                    
+                    <br><sup>1</sup>S-Lab, Nanyang Technological University &emsp; <sup>2</sup> Peking University &emsp; <sup>3</sup> UCLA &emsp;
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <ul class="nav nav-pills nav-justified">
+                        <li>
+                            <a href="">
+                            <image src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01-p-500.png" height="60px">
+                                <h4><strong>Paper</strong></h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            <image src="img/youtube_icon.png" height="60px">
+                                <h4><strong>Video</strong></h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/johannwyh/MEAT">
+                            <img src="img/github.png" height="60px">
+                                <h4><strong>Code</strong></h4>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://huggingface.co/spaces/FrozenBurning/3DTopia-XL">
+                                <img src="img/hf-icon.png" height="60px">
+                                    <h4><strong>Demo</strong></h4>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+        </div>
+
+        <div class="row text-center" style="font-size:large;"><strong>TL;DR:</strong> 
+            With mesh attention designed for efficient cross-view feature fusion, <br>
+            MEAT is the first human multiview diffusion model that can generate dense, view-consistent multiview images at a resolution of 1024x1024. <br><br>
+        </div>
+
+        <div class="raw">
+            <div class="col-md-8 col-md-offset-2">
+                <!-- <video id="v0" width="100%" autoplay loop muted controls>
+                    <source src="img/teaser.mp4" type="video/mp4" />
+                </video> -->
+                <p style="text-align:center;">
+                    <image src="img/teaser.png" class="img-responsive" alt="scales">
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify">
+                        Multiview diffusion models have shown considerable success in image-to-3D generation for general objects. However, when applied to human data, existing methods have yet to deliver promising results, largely due to the challenges of scaling multiview attention to higher resolutions. In this paper, we explore human multiview diffusion models at the megapixel level and introduce a solution called <b>mesh attention</b> to enable training at 1024x1024 resolution. Using a clothed human mesh as a central coarse geometric representation, the proposed mesh attention leverages rasterization and projection to establish direct cross-view coordinate correspondences. This approach significantly reduces the complexity of multiview attention while maintaining cross-view consistency. Building on this foundation, we devise a mesh attention block and combine it with keypoint conditioning to create our human-specific multiview diffusion model, MEAT. In addition, we present valuable insights into applying multiview human motion videos for diffusion training, addressing the longstanding issue of data scarcity. Extensive experiments show that MEAT effectively generates dense, consistent multiview human images at the megapixel level, outperforming existing multiview diffusion methods. Code and model will be publicly available.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="form-group col-md-10" style="padding: 0%; margin: 0%;">
+                    <textarea id="bibtex" class="form-control" readonly>
+@InProceedings{wang2025meat,
+    title = {{MEAT}: Multiview Diffusion Model for Human Generation on Megapixels with Mesh Attention},
+    author = {Wang, Yuhan and Hong, Fangzhou and Yang, Shuai and Jiang, Liming and Wu, Wayne and Loy, Chen Change},
+    booktitle = {CVPR},
+    year = {2025},
+}</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify">
+                The website template is borrowed from <a href="https://jonbarron.info/mipnerf/">Mip-NeRF</a>
+                </p>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
