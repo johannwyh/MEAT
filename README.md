@@ -13,6 +13,8 @@ multiview diffusion model that can generate dense, view-consistent multiview ima
 
 ## News
 
+[03/2025] Our paper has been released to [arxiv](https://arxiv.org/abs/2503.08664).
+
 [03/2025] Paper and Code coming soon!
 
 [02/2025] MEAT is accepted to CVPR 2025 :fire:
